@@ -13,6 +13,7 @@ class RollDice extends Component {
 
     }
     roll() {
+        // Pick two new random rolls
         const newDie1 = this.props.sides[Math.floor(Math.random() * this.props.sides.length)]
 
 
